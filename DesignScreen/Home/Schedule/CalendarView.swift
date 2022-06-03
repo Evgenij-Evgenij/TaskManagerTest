@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Calendar: View {
+struct CalendarView: View {
     @State var selectNumb = 0
     var body: some View {
         HStack {
@@ -48,7 +48,7 @@ struct Calendar: View {
 
 struct Calendar_Previews: PreviewProvider {
     static var previews: some View {
-        Calendar()
+        CalendarView()
            .previewInterfaceOrientation(.portrait)
     }
 }

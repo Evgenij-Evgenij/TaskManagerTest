@@ -22,7 +22,7 @@ struct RefactorCardView: View {
             }
             
             
-            NavigationLink(destination: HomeScreenTwo(), isActive: $item) {
+            NavigationLink(destination: ScheduleView(), isActive: $item) {
                 Text("Join Now")
                     .padding()
                     .background(.white)

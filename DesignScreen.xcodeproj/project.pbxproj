@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		733550C1284A712700CA9656 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733550C0284A712700CA9656 /* ScheduleViewModel.swift */; };
 		736E5362283693CD0060808D /* RefactorHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E5361283693CD0060808D /* RefactorHomeView.swift */; };
 		736E5365283694B60060808D /* RefactorHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E5364283694B60060808D /* RefactorHeaderView.swift */; };
 		736E5367283695190060808D /* RefactorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E5366283695190060808D /* RefactorCardView.swift */; };
@@ -15,6 +16,7 @@
 		736E536D28369AA30060808D /* RefactorEvaluationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E536C28369AA30060808D /* RefactorEvaluationView.swift */; };
 		736E536F28369AEC0060808D /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E536E28369AEC0060808D /* SectionHeaderView.swift */; };
 		736E537128369F580060808D /* RefactorTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E537028369F580060808D /* RefactorTabBarView.swift */; };
+		73AC5C3A284A179900F7BEEF /* TaskCardRefactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AC5C39284A179900F7BEEF /* TaskCardRefactor.swift */; };
 		CE18D3FC2834E60A006BCA46 /* DesignScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18D3FB2834E60A006BCA46 /* DesignScreenApp.swift */; };
 		CE18D3FE2834E60A006BCA46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18D3FD2834E60A006BCA46 /* ContentView.swift */; };
 		CE18D4002834E60C006BCA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE18D3FF2834E60C006BCA46 /* Assets.xcassets */; };
@@ -34,8 +36,8 @@
 		CE886772283544DE00A0BA01 /* Evalaution.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE886771283544DE00A0BA01 /* Evalaution.swift */; };
 		CE8D3CE328455A6900ACB76B /* TabBarViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D3CE228455A6900ACB76B /* TabBarViewTwo.swift */; };
 		CE8D3CE528455C4A00ACB76B /* TabBarTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D3CE428455C4A00ACB76B /* TabBarTwo.swift */; };
-		CE9559EB2837901B003A560C /* HomeScreenTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9559EA2837901B003A560C /* HomeScreenTwo.swift */; };
-		CE9559ED2837AB90003A560C /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9559EC2837AB90003A560C /* Calendar.swift */; };
+		CE9559EB2837901B003A560C /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9559EA2837901B003A560C /* ScheduleView.swift */; };
+		CE9559ED2837AB90003A560C /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9559EC2837AB90003A560C /* CalendarView.swift */; };
 		CE9559EF28380AA4003A560C /* Calendar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9559EE28380AA4003A560C /* Calendar2.swift */; };
 		CE9559F32838504B003A560C /* CustomDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9559F22838504B003A560C /* CustomDividerView.swift */; };
 		CEB9F94D283643C000AB883C /* LoaderRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9F94C283643C000AB883C /* LoaderRing.swift */; };
@@ -44,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		733550C0284A712700CA9656 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
 		736E5361283693CD0060808D /* RefactorHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorHomeView.swift; sourceTree = "<group>"; };
 		736E5364283694B60060808D /* RefactorHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorHeaderView.swift; sourceTree = "<group>"; };
 		736E5366283695190060808D /* RefactorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorCardView.swift; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		736E536C28369AA30060808D /* RefactorEvaluationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorEvaluationView.swift; sourceTree = "<group>"; };
 		736E536E28369AEC0060808D /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		736E537028369F580060808D /* RefactorTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorTabBarView.swift; sourceTree = "<group>"; };
+		73AC5C39284A179900F7BEEF /* TaskCardRefactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardRefactor.swift; sourceTree = "<group>"; };
 		CE18D3F82834E60A006BCA46 /* DesignScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE18D3FB2834E60A006BCA46 /* DesignScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignScreenApp.swift; sourceTree = "<group>"; };
 		CE18D3FD2834E60A006BCA46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,8 +76,8 @@
 		CE886771283544DE00A0BA01 /* Evalaution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evalaution.swift; sourceTree = "<group>"; };
 		CE8D3CE228455A6900ACB76B /* TabBarViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewTwo.swift; sourceTree = "<group>"; };
 		CE8D3CE428455C4A00ACB76B /* TabBarTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarTwo.swift; sourceTree = "<group>"; };
-		CE9559EA2837901B003A560C /* HomeScreenTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenTwo.swift; sourceTree = "<group>"; };
-		CE9559EC2837AB90003A560C /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		CE9559EA2837901B003A560C /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		CE9559EC2837AB90003A560C /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		CE9559EE28380AA4003A560C /* Calendar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar2.swift; sourceTree = "<group>"; };
 		CE9559F22838504B003A560C /* CustomDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDividerView.swift; sourceTree = "<group>"; };
 		CEB9F94C283643C000AB883C /* LoaderRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderRing.swift; sourceTree = "<group>"; };
@@ -107,6 +111,44 @@
 			name = Refactor;
 			sourceTree = "<group>";
 		};
+		73AC5C37284A14C300F7BEEF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CE18D3FD2834E60A006BCA46 /* ContentView.swift */,
+				CE18D4092834F73A006BCA46 /* NameAndCalendar.swift */,
+				CE18D40D283516EE006BCA46 /* ActivityList.swift */,
+				CE18D40B2834FAF0006BCA46 /* Card.swift */,
+				CE18D40F283517F6006BCA46 /* MaretsTarget.swift */,
+				CE886771283544DE00A0BA01 /* Evalaution.swift */,
+				CEB9F94C283643C000AB883C /* LoaderRing.swift */,
+				CEB9F94E283675A900AB883C /* TabBar.swift */,
+				CE18D3FB2834E60A006BCA46 /* DesignScreenApp.swift */,
+				73AC5C38284A14EA00F7BEEF /* Schedule */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		73AC5C38284A14EA00F7BEEF /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				CE9559EA2837901B003A560C /* ScheduleView.swift */,
+				733550C0284A712700CA9656 /* ScheduleViewModel.swift */,
+				CE9559EC2837AB90003A560C /* CalendarView.swift */,
+				CE9559F22838504B003A560C /* CustomDividerView.swift */,
+				CE783553283B9F5F00F998D3 /* JogginMorning.swift */,
+				73AC5C39284A179900F7BEEF /* TaskCardRefactor.swift */,
+				CE783557283BECC600F998D3 /* Reading.swift */,
+				CE611620283C283D00BD9A74 /* ContinueViewTwo.swift */,
+				CE627512283C3AB700D66309 /* Meeting .swift */,
+				CED19AA2283D7F3E0084294B /* ContinueWork.swift */,
+				CE27F64F284134C900CBDFE4 /* Diagram.swift */,
+				CE27F651284138C800CBDFE4 /* Clock.swift */,
+				CE8D3CE428455C4A00ACB76B /* TabBarTwo.swift */,
+				CE783555283B9FE400F998D3 /* SectionHeaderTwoView.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
 		CE18D3EF2834E60A006BCA46 = {
 			isa = PBXGroup;
 			children = (
@@ -126,8 +168,8 @@
 		CE18D3FA2834E60A006BCA46 /* DesignScreen */ = {
 			isa = PBXGroup;
 			children = (
-				CE61161F283C141E00BD9A74 /* DesignScreen */,
-				CE9559E728378FCC003A560C /* Screen two */,
+				CE62750F283C314100D66309 /* TestView */,
+				73AC5C37284A14C300F7BEEF /* Home */,
 				736E53632836946D0060808D /* Refactor */,
 				CE18D3FF2834E60C006BCA46 /* Assets.xcassets */,
 				CE18D4012834E60C006BCA46 /* Preview Content */,
@@ -143,22 +185,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CE61161F283C141E00BD9A74 /* DesignScreen */ = {
-			isa = PBXGroup;
-			children = (
-				CE18D3FD2834E60A006BCA46 /* ContentView.swift */,
-				CE18D4092834F73A006BCA46 /* NameAndCalendar.swift */,
-				CE18D40D283516EE006BCA46 /* ActivityList.swift */,
-				CE18D40B2834FAF0006BCA46 /* Card.swift */,
-				CE18D40F283517F6006BCA46 /* MaretsTarget.swift */,
-				CE886771283544DE00A0BA01 /* Evalaution.swift */,
-				CEB9F94C283643C000AB883C /* LoaderRing.swift */,
-				CEB9F94E283675A900AB883C /* TabBar.swift */,
-				CE18D3FB2834E60A006BCA46 /* DesignScreenApp.swift */,
-			);
-			path = DesignScreen;
-			sourceTree = "<group>";
-		};
 		CE62750F283C314100D66309 /* TestView */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,26 +193,6 @@
 				CE627510283C316200D66309 /* SectionView.swift */,
 			);
 			path = TestView;
-			sourceTree = "<group>";
-		};
-		CE9559E728378FCC003A560C /* Screen two */ = {
-			isa = PBXGroup;
-			children = (
-				CE9559EA2837901B003A560C /* HomeScreenTwo.swift */,
-				CE9559EC2837AB90003A560C /* Calendar.swift */,
-				CE9559F22838504B003A560C /* CustomDividerView.swift */,
-				CE783553283B9F5F00F998D3 /* JogginMorning.swift */,
-				CE783557283BECC600F998D3 /* Reading.swift */,
-				CE611620283C283D00BD9A74 /* ContinueViewTwo.swift */,
-				CE627512283C3AB700D66309 /* Meeting .swift */,
-				CED19AA2283D7F3E0084294B /* ContinueWork.swift */,
-				CE27F64F284134C900CBDFE4 /* Diagram.swift */,
-				CE27F651284138C800CBDFE4 /* Clock.swift */,
-				CE8D3CE428455C4A00ACB76B /* TabBarTwo.swift */,
-				CE783555283B9FE400F998D3 /* SectionHeaderTwoView.swift */,
-				CE62750F283C314100D66309 /* TestView */,
-			);
-			path = "Screen two";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,10 +265,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73AC5C3A284A179900F7BEEF /* TaskCardRefactor.swift in Sources */,
 				CE627513283C3AB700D66309 /* Meeting .swift in Sources */,
 				CEB9F94F283675A900AB883C /* TabBar.swift in Sources */,
 				CE27F650284134C900CBDFE4 /* Diagram.swift in Sources */,
 				CE18D410283517F6006BCA46 /* MaretsTarget.swift in Sources */,
+				733550C1284A712700CA9656 /* ScheduleViewModel.swift in Sources */,
 				CE783558283BECC600F998D3 /* Reading.swift in Sources */,
 				736E5365283694B60060808D /* RefactorHeaderView.swift in Sources */,
 				736E536D28369AA30060808D /* RefactorEvaluationView.swift in Sources */,
@@ -278,7 +286,7 @@
 				CE8D3CE528455C4A00ACB76B /* TabBarTwo.swift in Sources */,
 				CE18D3FE2834E60A006BCA46 /* ContentView.swift in Sources */,
 				736E53692836977E0060808D /* RefactorActivityListView.swift in Sources */,
-				CE9559EB2837901B003A560C /* HomeScreenTwo.swift in Sources */,
+				CE9559EB2837901B003A560C /* ScheduleView.swift in Sources */,
 				736E536F28369AEC0060808D /* SectionHeaderView.swift in Sources */,
 				736E5367283695190060808D /* RefactorCardView.swift in Sources */,
 				CE783554283B9F5F00F998D3 /* JogginMorning.swift in Sources */,
@@ -287,7 +295,7 @@
 				CE9559F32838504B003A560C /* CustomDividerView.swift in Sources */,
 				CE27F652284138C800CBDFE4 /* Clock.swift in Sources */,
 				736E537128369F580060808D /* RefactorTabBarView.swift in Sources */,
-				CE9559ED2837AB90003A560C /* Calendar.swift in Sources */,
+				CE9559ED2837AB90003A560C /* CalendarView.swift in Sources */,
 				CE18D3FC2834E60A006BCA46 /* DesignScreenApp.swift in Sources */,
 				CE18D40C2834FAF0006BCA46 /* Card.swift in Sources */,
 				CE783556283B9FE400F998D3 /* SectionHeaderTwoView.swift in Sources */,
