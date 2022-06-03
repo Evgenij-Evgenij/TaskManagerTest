@@ -11,7 +11,8 @@ import SwiftUI
 struct DesignScreenApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RefactorHomeView()
+//            ContentView()
         }
     }
 }
