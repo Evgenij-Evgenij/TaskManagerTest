@@ -5,7 +5,7 @@
 //  Created by Евгений Воронов on 07.06.2022.
 //
 
-import Foundation
+import SwiftUI
 
 class RefScheduleViewModel: ObservableObject {
     // Sample Task
@@ -18,7 +18,7 @@ class RefScheduleViewModel: ObservableObject {
     @Published var currentWeek: [Date] = []
     
     // MARK: current Day
-    @Published var currentDay: Date = Date()
+    @Published var currentDay = Date()
     
     // MARK: Initialization
      
@@ -26,7 +26,7 @@ class RefScheduleViewModel: ObservableObject {
         fetchCurrentWeek()
     }
     
-    func fetchCurrentWeek(){
+    func fetchCurrentWeek() {
         let today =  Date()
         let calendar = Calendar.current
         
@@ -36,7 +36,7 @@ class RefScheduleViewModel: ObservableObject {
             return
         }
         
-        (1...7) .forEach { day in
+        (1...7).forEach { day in
             if let weekday = calendar.date(byAdding: .day, value: day, to: firstWeekDay) {
                 currentWeek.append(weekday)
             }
@@ -56,7 +56,18 @@ class RefScheduleViewModel: ObservableObject {
     
     func istoday(date: Date) -> Bool {
         let calendar = Calendar.current
-        
         return calendar.isDate(currentDay, inSameDayAs: date)
+    }
+    
+    func color(for date: Date) -> Color {
+        let calendar = Calendar.current
+        
+        if calendar.isDateInToday(date) {
+            return .white
+        } else if date < Date.now {
+            return .gray
+        } else {
+            return .black
+        }
     }
 }

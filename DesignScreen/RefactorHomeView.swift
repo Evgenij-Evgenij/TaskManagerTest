@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct RefactorHomeView: View {
+    
+    @StateObject var viewModel = RefactorHomeViewModel()
+    
     var body: some View {
         NavigationView {
         ScrollView {
@@ -20,6 +23,16 @@ struct RefactorHomeView: View {
                 // body
                 RefactorCardView()
                 RefactorActivityListView()
+                
+                // JSON DATA
+                VStack(alignment: .leading, spacing: 10.0) {
+                    ForEach(viewModel.todoList, id: \.id) { todo in
+                        Text(todo.title)
+                    }
+                }
+
+                // JSON DATA
+                
                 RefactorMaretsTargetView()
                 RefactorEvaluationView()
                 
@@ -51,8 +64,8 @@ struct RefactorHomeView: View {
 
 struct RefactorHomeView_Previews: PreviewProvider {
     static var previews: some View {
-        RefactorHomeView()
-            
-            
+        RefactorHomeView() 
     }
 }
+
+

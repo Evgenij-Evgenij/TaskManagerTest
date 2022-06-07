@@ -17,6 +17,7 @@
 		736E536F28369AEC0060808D /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E536E28369AEC0060808D /* SectionHeaderView.swift */; };
 		736E537128369F580060808D /* RefactorTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E537028369F580060808D /* RefactorTabBarView.swift */; };
 		73AC5C3A284A179900F7BEEF /* TaskCardRefactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AC5C39284A179900F7BEEF /* TaskCardRefactor.swift */; };
+		73CE5EF7284F6E500032C3C9 /* RefactorHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CE5EF6284F6E500032C3C9 /* RefactorHomeViewModel.swift */; };
 		CE18D3FC2834E60A006BCA46 /* DesignScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18D3FB2834E60A006BCA46 /* DesignScreenApp.swift */; };
 		CE18D3FE2834E60A006BCA46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18D3FD2834E60A006BCA46 /* ContentView.swift */; };
 		CE18D4002834E60C006BCA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE18D3FF2834E60C006BCA46 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		736E536E28369AEC0060808D /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		736E537028369F580060808D /* RefactorTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorTabBarView.swift; sourceTree = "<group>"; };
 		73AC5C39284A179900F7BEEF /* TaskCardRefactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardRefactor.swift; sourceTree = "<group>"; };
+		73CE5EF6284F6E500032C3C9 /* RefactorHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorHomeViewModel.swift; sourceTree = "<group>"; };
 		CE18D3F82834E60A006BCA46 /* DesignScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE18D3FB2834E60A006BCA46 /* DesignScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignScreenApp.swift; sourceTree = "<group>"; };
 		CE18D3FD2834E60A006BCA46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				736E5361283693CD0060808D /* RefactorHomeView.swift */,
+				73CE5EF6284F6E500032C3C9 /* RefactorHomeViewModel.swift */,
 				736E5366283695190060808D /* RefactorCardView.swift */,
 				736E5364283694B60060808D /* RefactorHeaderView.swift */,
 				736E53682836977E0060808D /* RefactorActivityListView.swift */,
@@ -285,6 +288,7 @@
 				CE18D40A2834F73A006BCA46 /* NameAndCalendar.swift in Sources */,
 				736E5362283693CD0060808D /* RefactorHomeView.swift in Sources */,
 				CE6EB5B8284F435000DC8DC9 /* RefScheduleViewModel.swift in Sources */,
+				73CE5EF7284F6E500032C3C9 /* RefactorHomeViewModel.swift in Sources */,
 				736E536B283697F50060808D /* RefactorMaretsTargetView.swift in Sources */,
 				CE8D3CE328455A6900ACB76B /* TabBarViewTwo.swift in Sources */,
 				CE8D3CE528455C4A00ACB76B /* TabBarTwo.swift in Sources */,

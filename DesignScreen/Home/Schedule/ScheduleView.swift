@@ -42,7 +42,7 @@ struct ScheduleView: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 10) {
-                    ForEach(taskModel.currentWeek, id: \.self) {day in
+                    ForEach(taskModel.currentWeek, id: \.self) { day in
                         VStack(spacing: 10) {
                             //EEE will return day as MON, TUE
                             Text(taskModel.extractDate(date: day, format: "EEE"))
@@ -53,7 +53,7 @@ struct ScheduleView: View {
 //                                        .frame(width: 8, height: 8)
 //                                        .opacity(taskModel.istoday(date: day) ? 1 : 0)
                         }
-                        .foregroundColor(taskModel.istoday(date: day) ? .white : .black)
+                        .foregroundColor(taskModel.color(for: day))
                         // MARK: capsule Shape
                         .frame(width: 45, height: 90)
                         .background(
