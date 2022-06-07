@@ -30,6 +30,7 @@
 		CE611621283C283D00BD9A74 /* ContinueViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE611620283C283D00BD9A74 /* ContinueViewTwo.swift */; };
 		CE627511283C316200D66309 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE627510283C316200D66309 /* SectionView.swift */; };
 		CE627513283C3AB700D66309 /* Meeting .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE627512283C3AB700D66309 /* Meeting .swift */; };
+		CE6EB5B8284F435000DC8DC9 /* RefScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EB5B7284F435000DC8DC9 /* RefScheduleViewModel.swift */; };
 		CE783554283B9F5F00F998D3 /* JogginMorning.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE783553283B9F5F00F998D3 /* JogginMorning.swift */; };
 		CE783556283B9FE400F998D3 /* SectionHeaderTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE783555283B9FE400F998D3 /* SectionHeaderTwoView.swift */; };
 		CE783558283BECC600F998D3 /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE783557283BECC600F998D3 /* Reading.swift */; };
@@ -70,6 +71,7 @@
 		CE611620283C283D00BD9A74 /* ContinueViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueViewTwo.swift; sourceTree = "<group>"; };
 		CE627510283C316200D66309 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		CE627512283C3AB700D66309 /* Meeting .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meeting .swift"; sourceTree = "<group>"; };
+		CE6EB5B7284F435000DC8DC9 /* RefScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefScheduleViewModel.swift; sourceTree = "<group>"; };
 		CE783553283B9F5F00F998D3 /* JogginMorning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogginMorning.swift; sourceTree = "<group>"; };
 		CE783555283B9FE400F998D3 /* SectionHeaderTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderTwoView.swift; sourceTree = "<group>"; };
 		CE783557283BECC600F998D3 /* Reading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			children = (
 				CE9559EA2837901B003A560C /* ScheduleView.swift */,
 				733550C0284A712700CA9656 /* ScheduleViewModel.swift */,
+				CE6EB5B7284F435000DC8DC9 /* RefScheduleViewModel.swift */,
 				CE9559EC2837AB90003A560C /* CalendarView.swift */,
 				CE9559F22838504B003A560C /* CustomDividerView.swift */,
 				CE783553283B9F5F00F998D3 /* JogginMorning.swift */,
@@ -281,6 +284,7 @@
 				CE627511283C316200D66309 /* SectionView.swift in Sources */,
 				CE18D40A2834F73A006BCA46 /* NameAndCalendar.swift in Sources */,
 				736E5362283693CD0060808D /* RefactorHomeView.swift in Sources */,
+				CE6EB5B8284F435000DC8DC9 /* RefScheduleViewModel.swift in Sources */,
 				736E536B283697F50060808D /* RefactorMaretsTargetView.swift in Sources */,
 				CE8D3CE328455A6900ACB76B /* TabBarViewTwo.swift in Sources */,
 				CE8D3CE528455C4A00ACB76B /* TabBarTwo.swift in Sources */,

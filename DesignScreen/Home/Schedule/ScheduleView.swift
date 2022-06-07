@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct ScheduleView: View {
-    
-    @StateObject var viewModel = ScheduleViewModel()
+    @StateObject var taskModel = RefScheduleViewModel()
+    @Namespace var animation
+    //@StateObject var viewModel = ScheduleViewModel()
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
@@ -39,20 +40,58 @@ struct ScheduleView: View {
             }
             .padding()
             
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 10) {
+                    ForEach(taskModel.currentWeek, id: \.self) {day in
+                        VStack(spacing: 10) {
+                            //EEE will return day as MON, TUE
+                            Text(taskModel.extractDate(date: day, format: "EEE"))
+                            
+                            Text(taskModel.extractDate(date: day, format: "dd"))
+//                                    Circle()
+//                                        .fill(.white)
+//                                        .frame(width: 8, height: 8)
+//                                        .opacity(taskModel.istoday(date: day) ? 1 : 0)
+                        }
+                        .foregroundColor(taskModel.istoday(date: day) ? .white : .black)
+                        // MARK: capsule Shape
+                        .frame(width: 45, height: 90)
+                        .background(
+                            
+                            ZStack{
+                               // MARK: Matched geometry effect
+                                if taskModel.istoday(date: day) {
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .fill(.blue)
+                                        .matchedGeometryEffect(id: "CURRDay", in: animation)
+                                }
+                            })
+                        .contentShape(Capsule())
+                        .onTapGesture {
+                            // Updating current day
+                            withAnimation {
+                                taskModel.currentDay = day
+                            }
+                        }
+                    }
+                }
+                .padding(.horizontal)
+            }
+            
             // body
             ScrollView {
                 VStack {
                     
-                    HStack {
-                        ForEach(viewModel.dates
-                            .sorted(by: { $0 < $1 }),
-                                id: \.self) { date in
-                            Text(viewModel.dateFormatter.string(from: date))
-                        }
-                    }
+//                    HStack {
+//                        ForEach(viewModel.dates
+//                            .sorted(by: { $0 < $1 }),
+//                                id: \.self) { date in
+//                            Text(viewModel.dateFormatter.string(from: date))
+//                        }
+//                    }
                     
                     
-                    CalendarView()
+                    
                     CustomDividerView()
                         //.navigationBarTitleDisplayMode(.inline)
                     HStack {
@@ -85,6 +124,7 @@ struct ScheduleView: View {
                     Color.clear.frame(height: 60)
                 }
             }
+            
         }
         
         .overlay(
